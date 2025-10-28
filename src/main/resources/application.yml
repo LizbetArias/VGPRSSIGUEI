@@ -1,0 +1,11 @@
+server:
+     port: 9081
+
+spring:
+     application:
+          name: vg-ms-students
+     data:
+          mongodb:
+               uri: mongodb+srv://sistemaSigei:t2eK0JR0YSwoT02e@sigei.oub8atq.mongodb.net/?retryWrites=true&w=majority&appName=SIGEI
+               database: SIGEI
+               auto-index-creation: false
